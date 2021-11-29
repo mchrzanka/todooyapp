@@ -19,7 +19,7 @@ function UserLoginStatus({ size, color, status, ...props }) {
 		});
 	}
 
-	if (!user) {
+	if (user) {
 		return (
 			<LoginStatus bgcolor='#d6fecd' onClick={handleClick}>
 				<IoPersonCircleSharp size={size || '1.75rem'} />
