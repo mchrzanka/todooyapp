@@ -1,0 +1,1 @@
+export {Legal, HighLight} from './styles'
